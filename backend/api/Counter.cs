@@ -6,7 +6,8 @@ namespace Company.Function
     {
         [JsonProperty(PropertyName = "id")]
         public string Id {get;set;}
-        [JSonProperty(PropertyName = "count")]
+        
+        [JsonProperty(PropertyName = "count")]
         public int Count {get;set;}
     }
 }
