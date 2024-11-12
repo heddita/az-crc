@@ -12,4 +12,4 @@ My Azure Resume - Cloud Resume Challenge
 ## Second Steps
 
 Created resource group in Azure, along with Cosmos DB NoSQL.
-
+Created db and the counter container and created the /id item inside the counter counter.  This starts the counter off at 0.
