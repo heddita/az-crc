@@ -11,5 +11,12 @@ My Azure Resume - Cloud Resume Challenge
   
 ## Second Steps
 
-Created resource group in Azure, along with Cosmos DB NoSQL.
-Created db and the counter container and created the /id item inside the counter counter.  This starts the counter off at 0.
+- Created resource group in Azure, along with Cosmos DB NoSQL.
+- Created db and the counter container and created the /id item inside the counter counter.  This starts the counter off at 0.
+- Created the Azure Function by using the Azure extension on VS Code.  I was able to create a new function on the local project, which ran from the root project folder az-crc\backend\api.
+- This created some issues while installing the dotnet8 and dotnet6 dependencies.
+- I had to do some T&S and in the end the following command inside the backend\api folder saved the day.
+`` dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org ``
+- Created a Counter.cs file in the backend folder to begin binding the CosmosDB to the counter function.
+- Modified the GetResumeCounters.cs
+
