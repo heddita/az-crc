@@ -19,4 +19,10 @@ My Azure Resume - Cloud Resume Challenge
 `` dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org ``
 - Created a Counter.cs file in the backend folder to begin binding the CosmosDB to the counter function.
 - Modified the GetResumeCounters.cs
+- Had to fix some dotnet packages
+ dotnet add package System.Diagnostics.DiagnosticSource --version 8.0.0
+ dotnet add package Microsoft.Azure.Cosmos --version 3.41.0
 
+## Third Steps
+
+- 
