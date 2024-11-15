@@ -25,4 +25,8 @@ My Azure Resume - Cloud Resume Challenge
 
 ## Third Steps
 
-- 
+- Added the backend part of the counter.  It's done in dotnet and in the tut, she's using dotnet 3.5 but that's from a while back.  I had to jiggle around the dependencies and do some changes in the way it talked to the CosmosDB in order to update it from 3.5 to 6.
+
+## Forth Steps
+
+- Deploying to Azure
