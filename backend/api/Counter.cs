@@ -5,7 +5,7 @@ namespace Company.Function
     public class Counter
     {
         [JsonProperty(PropertyName = "id")]
-        public string Id {get;set;}
+        public string Id {get;set;} = string.Empty;
         
         [JsonProperty(PropertyName = "count")]
         public int Count {get;set;}
