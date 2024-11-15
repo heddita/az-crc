@@ -8,18 +8,18 @@ using Newtonsoft.Json;
 using Microsoft.Azure.Cosmos;
 namespace Company.Function
 {
-    public class GetResumeCounter
+    public class GetResumeCounterV2
     {
-        private readonly ILogger<GetResumeCounter> _logger;
+        private readonly ILogger<GetResumeCounterV2> _logger;
         private readonly CosmosClient _cosmosClient;
         // Constructor where CosmosClient and ILogger are injected
-        public GetResumeCounter(ILogger<GetResumeCounter> logger, CosmosClient cosmosClient)
+        public GetResumeCounterV2(ILogger<GetResumeCounterV2> logger, CosmosClient cosmosClient)
         {
             _logger = logger;
             _cosmosClient = cosmosClient;
         }
         // Function to get and update the counter from Cosmos DB
-        [Function("GetResumeCounter")]
+        [Function("GetResumeCounterV2")]
         public async Task<HttpResponseData> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequestData req)
         {
